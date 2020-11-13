@@ -30,6 +30,8 @@
 
 /* ========================================================================== */
 
+@import url('sidemenu.css');
+
 body {
    padding-bottom: 50px;
 }
@@ -53,6 +55,3 @@ footer{
    background-color: rgb(177, 177, 177);
 }
 
-:root {
-   --primary: red;
-}
