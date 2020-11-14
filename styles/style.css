@@ -33,3 +33,6 @@
 @import url('variaveis.css');
 @import url('cores.css');
 @import url('menu-lateral.css');
+@import url('breakpoints.css');
+
+/* Podem colocar suas classes css aqui ou importar um novo arquivo acima */
