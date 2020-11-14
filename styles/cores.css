@@ -1,0 +1,79 @@
+
+/* ==========================================================================
+CLASSES DE CORES
+========================================================================== */
+
+
+/* BACKGROUNDS
+========================================================================== */
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--secondary) !important;
+}
+
+.bg-warning {
+    background-color: var(--warning) !important;
+}
+
+.bg-info {
+    background-color: var(--info) !important;
+}
+
+.bg-light {
+    background-color: var(--light) !important;
+}
+
+
+/* TEXTOS
+========================================================================== */
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
+.text-warning {
+    color: var(--warning) !important;
+}
+
+.text-info {
+    color: var(--info) !important;
+}
+
+.text-light {
+    color: var(--light) !important;
+}
+
+
+/* ==========================================================================
+   Bloco de comentário de seção
+   ========================================================================== */
+
+/* Bloco de comentário de sub-seção
+   ========================================================================== */
+
+/*
+ * Bloco de comentário de grupo
+ * Ideal para explicações em múltiplas linhas e documentação.
+ */
+
+/**
+ * Breve descrição usando o estilo de formato de comentário Doxygen
+ *
+ * A primeira frase da descrição longa começa aqui e continua
+ * nesta linha por um tempo finalmente concluindo aqui no final deste parágrafo.
+ *
+ * A descrição longa é ideal para explicações mais detalhadas e documentação.
+ * Ele pode incluir HTML exemplo, URLs, ou qualquer outra informação
+ * que seja considerada necessária ou útil.
+ */
+
+
+/* Comentário básico */

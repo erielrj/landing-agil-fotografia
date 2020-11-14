@@ -29,29 +29,7 @@
 
 
 /* ========================================================================== */
-
-@import url('sidemenu.css');
-
-body {
-   padding-bottom: 50px;
-}
-
-html, body{
-   height: 100%;
-}
-
-main{
-   height: 100%;
-}
-
-
-footer{
-   position: absolute;
-   bottom: 0;
-   width: 100%;
-   text-align: center;
-   height: 50px;
-   line-height: 50px;
-   background-color: rgb(177, 177, 177);
-}
-
+@import url('cabecalho.css');
+@import url('variaveis.css');
+@import url('cores.css');
+@import url('menu-lateral.css');
