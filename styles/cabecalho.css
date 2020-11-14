@@ -1,24 +1,43 @@
 body {
-    padding-bottom: 50px;
- }
+   padding-bottom: 50px;
+}
  
- html, body{
-    height: 100%;
- }
+html, body{
+   height: 100%;
+}
  
- main{
-    height: 100%;
- }
+main{
+   height: 100%;
+}
  
  
- footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    height: 50px;
-    line-height: 50px;
-    background-color: rgb(177, 177, 177);
- }
+footer{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   height: 120px;
+   line-height: 10px; /*padrão 50*/
+   background-color: rgb(177, 177, 177);
+}
+
+footer a {
+   color: var(--secondary);
+}
+
+footer a:hover {
+   color: var(--primary);
+   text-decoration: none;
+}
+
+.container-footer {
+   margin-top: 15px;
+}
+
+.container-footer p {
+   margin-top: 20px;
+}
+
+
  
  
