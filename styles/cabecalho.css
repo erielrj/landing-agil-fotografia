@@ -1,18 +1,5 @@
-body {
-   padding-bottom: 50px;
-}
- 
-html, body{
-   height: 100%;
-}
- 
-main{
-   height: 100%;
-}
- 
- 
 footer{
-   position: absolute;
+   position: relative;
    bottom: 0;
    width: 100%;
    text-align: center;
@@ -25,13 +12,13 @@ footer a {
    color: var(--secondary);
 }
 
+.container-footer {
+   padding-top: 15px;
+}
+
 footer a:hover {
    color: var(--primary);
    text-decoration: none;
-}
-
-.container-footer {
-   margin-top: 15px;
 }
 
 .container-footer p {
