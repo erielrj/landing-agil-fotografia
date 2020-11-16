@@ -4,7 +4,7 @@ footer{
    width: 100%;
    text-align: center;
    height: 120px;
-   line-height: 10px; /*padrão 50*/
+   line-height: 15px; /*padrão 50*/
    background-color: rgb(177, 177, 177);
 }
 
@@ -22,7 +22,8 @@ footer a:hover {
 }
 
 .container-footer p {
-   margin-top: 20px;
+   margin-top: 12px;
+   margin-bottom: 20px;
 }
 
 
