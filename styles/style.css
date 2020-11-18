@@ -34,7 +34,9 @@
 @import url('cores.css');
 @import url('barra-topo.css');
 @import url('menu-lateral.css');
+@import url('secao-todas.css');
 @import url('secao1-carousel.css');
+@import url('secao2-pilares.css');
 @import url('secao4-recomendacoes.css');
 @import url('breakpoints.css');
 

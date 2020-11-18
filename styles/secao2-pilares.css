@@ -1,0 +1,8 @@
+#pilares > div > div > img {
+    max-width: 200px;
+    margin: 0 auto;
+}
+#pilares > div > div {
+    border: 0;
+    padding: 0;
+}
