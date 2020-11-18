@@ -32,6 +32,7 @@
 @import url('cabecalho.css');
 @import url('variaveis.css');
 @import url('cores.css');
+@import url('barra-topo.css');
 @import url('menu-lateral.css');
 @import url('secao1-carousel.css');
 @import url('secao4-recomendacoes.css');
@@ -39,8 +40,3 @@
 
 /* Podem colocar suas classes css aqui ou importar um novo arquivo acima */
 
-#top-bar {
-   background-color: red;
-   width: 100%;
-   height: 30px;
-}
