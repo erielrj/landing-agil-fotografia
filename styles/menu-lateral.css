@@ -1,9 +1,14 @@
 .btn-menu-lateral {
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
-    padding: 0 10px;
-    background-color: white;
-    text-align: right;
+    position: fixed;
+    right: 15px;
+    top: 3%;
+    padding: 5px 10px;
+    color: var(--primary);
+    border-radius: 5px;
+    z-index: 28;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
 }
 
 .sidenav {
