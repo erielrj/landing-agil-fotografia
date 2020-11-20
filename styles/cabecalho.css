@@ -7,7 +7,7 @@ footer{
    bottom: 0;
    width: 100%;
    text-align: center;
-   height: 120px;
+   padding: 5px;
    line-height: 15px; /*padrão 50*/
    background-color: rgb(177, 177, 177);
 }
