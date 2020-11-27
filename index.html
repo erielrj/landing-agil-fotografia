@@ -258,13 +258,13 @@
 
                 <!-- SESSÃO MODAL -->
                 <section id="modal">
-                    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal-modulo-introducao"
                         aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header"
                                     style="background: linear-gradient(to right, #b10f2e, #280000);">
-                                    <h5 class="modal-title text-light w-100 ml-3 text-center">
+                                    <h5 class="modal-title text-light w-100 ml-3 text-center" id="modal-modulo-introducao">
                                         Introdução
                                     </h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -288,13 +288,13 @@
                         </div>
                     </div>
 
-                    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal-modulo-equipamentos-fotoraficos"
                         aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header"
                                     style="background: linear-gradient(to right, #b10f2e, #280000);">
-                                    <h5 class="modal-title text-light w-100 ml-3 text-center">
+                                    <h5 class="modal-title text-light w-100 ml-3 text-center" id="modal-modulo-equipamentos-fotoraficos">
                                         Equipamentos fotográficos
                                     </h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -318,13 +318,13 @@
                         </div>
                     </div>
 
-                    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal-modulo-montando-imagem"
                         aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header"
                                     style="background: linear-gradient(to right, #b10f2e, #280000);">
-                                    <h5 class="modal-title text-light w-100 ml-3 text-center">
+                                    <h5 class="modal-title text-light w-100 ml-3 text-center" id="modal-modulo-montando-imagem">
                                         Montando a imagem passo a passo
                                     </h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -348,13 +348,13 @@
                         </div>
                     </div>
 
-                    <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal-modulo-luz"
                         aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header"
                                     style="background: linear-gradient(to right, #b10f2e, #280000);">
-                                    <h5 class="modal-title text-light w-100 ml-3 text-center">
+                                    <h5 class="modal-title text-light w-100 ml-3 text-center" id="modal-modulo-luz">
                                         Luz - conhecendo e entendo a parte técnica
                                     </h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -378,13 +378,13 @@
                         </div>
                     </div>
 
-                    <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal-modulo-pratica"
                         aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header"
                                     style="background: linear-gradient(to right, #b10f2e, #280000);">
-                                    <h5 class="modal-title text-light w-100 ml-3 text-center">
+                                    <h5 class="modal-title text-light w-100 ml-3 text-center" id="modal-modulo-pratica">
                                         Entrando na prática
                                     </h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -408,13 +408,13 @@
                         </div>
                     </div>
 
-                    <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal-modulo-producao"
                         aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header"
                                     style="background: linear-gradient(to right, #b10f2e, #280000);">
-                                    <h5 class="modal-title text-light w-100 ml-3 text-center">
+                                    <h5 class="modal-title text-light w-100 ml-3 text-center" id="modal-modulo-producao">
                                         Entendendo a pós produção
                                     </h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -478,9 +478,9 @@
             <!--Inicio do Formulario-->
 
             <section id="formulario" class="row align-items-center">
-                <!-- <div class="container mt-3">
-                    <h2 class="text-center d-block w-100  text-primary">Compre aqui</h2>
-                </div> -->
+                <h2 class="text-center d-block w-100 pt-5 pb-3 text-primary">
+                    Matricule-se
+                </h2>
 
                 <form action="#" class="mx-auto m-4 p-4 col-md-5">
                     <div class="form-group">
@@ -512,7 +512,7 @@
                         <del>de R$ 699,99</del>
                     </p>
                     <p class="font-weight-bold text-left mr-5 h5">por R$ 499,99</p>
-                    <button type="button" class="btn btn-primary btn-lg ml-2" type="submit">
+                    <button type="button" class="btn btn-primary btn-lg ml-2">
                         Comprar
                     </button>
                 </div>
@@ -527,7 +527,7 @@
                     <a href="#"> <i style="font-size: 24px" class="fa">&#xf16d;</i> </a>
                 </div>
                 <div class="col-auto">
-                    <a href="#"> <i style="font-size: 24px" class="fa">&#xf167;</i> </a>
+                    <a href="#"> <i style="font-size: 24px" class="fa">&#xf167;;</i> </a>
                 </div>
                 <div class="col-auto">
                     <a href="#"> <i style="font-size: 24px" class="fa">&#xf09b;</i> </a>
