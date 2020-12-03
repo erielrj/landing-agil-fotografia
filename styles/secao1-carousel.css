@@ -40,6 +40,12 @@
     }
 }
 
+@media screen  and (max-width: 500px){
+    .carousel-caption h1 {
+        font-size: 0.8rem;
+    }   
+}
+
 
 @media screen and (min-width: 360px) {
     .textos-slide-1, .textos-slide-3 {
