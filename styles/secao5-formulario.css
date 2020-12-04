@@ -40,6 +40,22 @@ form {
 }
 
 
+
+
+/* Aqui está a classe de erro dos inputs */
+
+.input-error {
+    border-color: red;
+}
+
+.input-error::placeholder {
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+
+
+
+
 @media screen and (max-width: 540px){
 
     #formulario {
