@@ -1,11 +1,24 @@
-#modulos > div > div > div > img {
+#modulos>div img {
     max-width: 200px;
     margin: 0 auto;
 }
-#modulos > div > div {
+
+#modulos>div>div {
     padding: 6%;
 }
 
 li {
     list-style-type: none;
-  }
+}
+
+#modulos .card {
+    min-height: 500px;
+    max-width: 500px;
+}
+
+#modulos button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
