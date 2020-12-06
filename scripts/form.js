@@ -74,7 +74,11 @@ const capitalize = (s) => {
     for(input of formInputs){
         input.addEventListener("focus", function () {
             this.className = "form-control";
-            this.placeholder = capitalize(this.name);
+            if(this.name === "cep") {
+                this.placeholder = 'CEP';
+            } else {
+                this.placeholder = capitalize(this.name);
+            }
         })
     }
 
@@ -91,7 +95,7 @@ const capitalize = (s) => {
             const telefone = formInputs[3].value;
             const cep = formInputs[4].value;
 
-            window.open('https://api.whatsapp.com/send?phone=5521997170603&text=' + encodeURIComponent(`Oi, encontrei vocês pelo site, meu nome é: ${nome}. Meus dados são email: ${email}, enedereço: ${endereco}, telefone: ${telefone}, cep: ${cep}.`));
+            window.open('https://api.whatsapp.com/send?phone=5521997170603&text=' + encodeURIComponent(`Oi, encontrei vocês pelo site, gostaria de me matricular. Meu nome é: *${nome}*. Meus dados são email: *${email}*, endereço: *${endereco}*, telefone: *${telefone}*, cep: *${cep}*.`));
         };
     })
 }
