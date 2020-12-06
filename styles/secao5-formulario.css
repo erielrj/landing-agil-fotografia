@@ -56,7 +56,7 @@ form {
 
 
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 768px){
 
     #formulario {
         margin: 0 !important;
