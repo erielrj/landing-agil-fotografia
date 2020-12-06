@@ -1,6 +1,3 @@
-const formInputs = document.querySelectorAll('input.form-control');
-
-
 function setErrorClasses(inputNames) {
     const formInputs = document.querySelectorAll('.form-control');
 
@@ -64,6 +61,24 @@ function checkErrors(inputsArray) {
     }
 
 }
+
+const capitalize = (s) => {
+    if (typeof s !== 'string') return ''
+    return s.charAt(0).toUpperCase() + s.slice(1)
+}
+
+(function(){
+    const formInputs = document.querySelectorAll('input.form-control');
+    console.log(formInputs);
+
+    for(input of formInputs){
+        input.addEventListener("focus", function () {
+            this.className = "form-control";
+            this.placeholder = capitalize(this.name);
+        })
+    }
+
+})();
 
 (function () {
     const formButton = document.querySelector('#formButton');
