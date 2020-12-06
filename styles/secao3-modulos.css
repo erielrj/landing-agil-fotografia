@@ -11,12 +11,12 @@ li {
     list-style-type: none;
 }
 
-#modulos .card {
+#modulos .card.mb-5 {
     min-height: 500px;
     max-width: 500px;
 }
 
-#modulos button {
+#modulos [data-toggle="modal"] {
     position: absolute;
     bottom: 20px;
     left: 50%;
