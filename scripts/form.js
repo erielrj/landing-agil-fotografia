@@ -5,7 +5,7 @@ function setErrorClasses(inputNames) {
 
     if (inputNames.includes("nome")) {
         formInputs[0].className += " input-error";
-        formInputs[0].placeholder = "Digite um nome!!!";
+        formInputs[0].placeholder = "Digite um nome!";
     } else {
         formInputs[0].className = "form-control";
         formInputs[0].placeholder = "Nome";
@@ -13,7 +13,7 @@ function setErrorClasses(inputNames) {
 
     if (inputNames.includes("email")) {
         formInputs[1].className += " input-error";
-        formInputs[1].placeholder = "Digite um email!!!";
+        formInputs[1].placeholder = "Digite um email!";
     } else {
         formInputs[1].className = "form-control";
         formInputs[1].placeholder = "Email";
@@ -21,7 +21,7 @@ function setErrorClasses(inputNames) {
 
     if (inputNames.includes("endereco")) {
         formInputs[2].className += " input-error";
-        formInputs[2].placeholder = "Digite um endereco!!!";
+        formInputs[2].placeholder = "Digite um endereco!";
     } else {
         formInputs[2].className = "form-control";
         formInputs[2].placeholder = "Endereço";
@@ -29,7 +29,7 @@ function setErrorClasses(inputNames) {
 
     if (inputNames.includes("telefone")) {
         formInputs[3].className += " input-error";
-        formInputs[3].placeholder = "Digite um telefone!!!";
+        formInputs[3].placeholder = "Digite um telefone!";
     } else {
         formInputs[3].className = "form-control";
         formInputs[3].placeholder = "Telefone";
@@ -37,7 +37,7 @@ function setErrorClasses(inputNames) {
 
     if (inputNames.includes("cep")) {
         formInputs[4].className += " input-error";
-        formInputs[4].placeholder = "Digite um cep!!!";
+        formInputs[4].placeholder = "Digite um CEP!";
     } else {
         formInputs[4].className = "form-control";
         formInputs[4].placeholder = "CEP";
