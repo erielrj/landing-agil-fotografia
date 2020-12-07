@@ -44,3 +44,11 @@
     font-size: 36px;
     margin-left: 50px;
 }
+
+
+@media screen and (min-width: 1200px){
+    .btn-menu-lateral {
+        top: 2%;
+        right: 2%;
+    }
+}
