@@ -22,3 +22,12 @@ li {
     left: 50%;
     transform: translateX(-50%);
 }
+
+#modal a {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+#modal a:hover {
+    color: var(--primary);
+}
