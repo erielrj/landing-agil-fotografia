@@ -51,6 +51,31 @@ CLASSES DE CORES
     color: var(--light) !important;
 }
 
+.btn-primary {
+    background-color: var(--primary);
+    outline: none;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary);
+    outline: none;
+    border: none;
+}
+
+.btn-primary:focus {
+    background-color: var(--secondary);
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-primary:active {
+    background-color: var(--primary) !important;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
 
 /* ==========================================================================
    Bloco de comentário de seção
