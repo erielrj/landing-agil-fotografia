@@ -8,7 +8,7 @@ Criar um projeto usando os métodos de gerenciamento ágil ensinados durante as 
 
 Uma landing page para um curso de fotografia. 
 
-![](images\logo\pip-logo.png)
+<img src = ".\images\logo\pip-logo.png">
 
 [site](https://rangel-web.com/curso-fotografia/)
 
